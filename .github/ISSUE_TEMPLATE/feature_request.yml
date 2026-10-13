@@ -1,0 +1,15 @@
+name: Feature request
+description: Suggest an improvement
+title: '[Feature] '
+body:
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Use case
+      description: Describe the task you want to complete.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
